@@ -27,9 +27,9 @@
 -include vendor/samsung/j5ltexx/BoardConfigVendor.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_j5lte_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_j5nlte_defconfig
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/j5ltexx/init/init_j5lte.c
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/j5ltexx/init/init_j5lte.cpp
