@@ -26,8 +26,11 @@
 # Inherit from the proprietary version
 -include vendor/samsung/j5ltexx/BoardConfigVendor.mk
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := j5lte
+
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_j5lte_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_j5nlte_defconfig
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
